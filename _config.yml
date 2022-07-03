@@ -5,10 +5,6 @@ url: https://github.com/ArepaZombie/arepas-blog # this is your site's root addre
 description: > # this means to ignore newlines until "show_excerpts:"
   A little blog were I put updates of my proyect: a videogame.
 favicon: "./favicon.ico" # set the favicon of the site 
-paginate: 5 # pagination based on number of posts
-paginate_path: "page:num"
-exclude: ["README.md"] # files to exclude
-highlighter: pygments
 markdown: kramdown
 
 show_excerpts: false # set to true to show excerpts on the homepage
@@ -53,4 +49,3 @@ remote_theme: huangyz0918/moving # note, please use huangyz0918/moving if you wa
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
