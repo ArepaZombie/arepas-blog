@@ -1,7 +1,7 @@
 title: Arepa's Game Blog # The title of the blog
 author: ArepaZombie # Your name 
 email: jorgetorresmora99@gmail.com # your email shown in the footer
-url: https://github.com/ArepaZombie/arepas-blog # this is your site's root address.
+url: https://arepazombie.github.io/arepas-blog/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
   A little blog were I put updates of my proyect: a videogame.
 favicon: "./favicon.ico" # set the favicon of the site 
