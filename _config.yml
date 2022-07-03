@@ -1,31 +1,36 @@
-title: Moving # The title of the blog
-author: Your Name # Your name 
-email: your-email@domain.com # your email shown in the footer
-url: http://huangyz.name/moving/ # this is your site's root address.
+title: Arepa's Game Blog # The title of the blog
+author: ArepaZombie # Your name 
+email: jorgetorresmora99@gmail.com # your email shown in the footer
+url: https://github.com/ArepaZombie/arepas-blog # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  A clean and minimalist theme for Jekyll.
+  A little blog were I put updates of my proyect: a videogame.
 favicon: "./favicon.ico" # set the favicon of the site 
+paginate: 5 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
 
 show_excerpts: false # set to true to show excerpts on the homepage
   
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
-  avatar_url: "https://i.loli.net/2019/08/26/JzCLhDWPEybZr2T.jpg" # avatar in about page
-  about_you: a short description about you. # short description about you in about page
+  avatar_url: "https://avatars.githubusercontent.com/u/106775933?s=400&u=89eb344c1d5ffd95b49f686c2689b0bae33b0f15&v=4" # avatar in about page
+  about_you: I'm just starting to learn to code and program. And I love this. # short description about you in about page
   date_format: "%b %d" # date format of posts in home page
   back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
 
   # generate social links in about page.
   social_links:
-    # twitter: 
-    github:  huangyz0918
-    rss: RSS
+    twitter: ArepaZombie
+    github:  ArepaZombie
+    #rss: RSS
     # dribbble: 
-    facebook: huangyz0918
+    #facebook: huangyz0918
     # flickr:   
     # instagram: 
-    linkedin: yizheng-huang
+    linkedin: jorge-torres-374816242
     # pinterest: 
     # youtube: 
     # youtube_channel: 
@@ -48,3 +53,4 @@ theme: moving # note, please use huangyz0918/moving if you want to publish to Gi
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-paginate
