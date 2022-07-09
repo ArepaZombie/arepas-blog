@@ -3,7 +3,7 @@ author: ArepaZombie # Your name
 email: jorgetorresmora99@gmail.com # your email shown in the footer
 url: https://arepazombie.github.io/arepas-blog/ # this is your site's root address.
 description: > # this means to ignore newlines until "show_excerpts:"
-  A little blog were I put updates of my proyect: a videogame. The code for the games is [here](https://github.com/ArepaZombie/Golden_Arepa)
+  A little blog were I put updates of my proyect: a videogame.
 favicon: "./favicon.ico" # set the favicon of the site 
 markdown: kramdown
 
